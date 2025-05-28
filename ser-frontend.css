@@ -1,0 +1,128 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(181, 176, 176);   
+    margin: 0;
+}
+
+header{
+    background-image: url(imagens/bg-3.jpg);
+    background-size:cover;
+    background-position: center;
+    overflow-x: hidden;
+    height: auto;
+    padding-bottom: 20px;
+}
+ul{
+    padding-left: 0;
+    margin-top: 30px;
+    width: 95%;
+}
+
+li{
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    margin: -29px auto;
+    margin-left: 40%;
+    width: 95%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 6px;
+}
+
+.menu a:hover{
+ background-color:#222121bd;
+}
+.menu a{
+    color: white;
+    background-color: rgb(102, 102, 102);
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 18px;
+    font-size: 17px;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+h3{
+    padding:10px;
+    margin: 10px;
+    background-color: rgb(219, 219, 219);
+    border-bottom: 2px solid rgba(176, 175, 175, 0.637);
+}
+
+.p-carreira{
+    color: white;
+    background-color: #222121bd;
+    padding: 0.5px;
+    text-align: center;
+    width: 32%;
+    margin: 80px auto;
+    
+    border-bottom: 3px solid rgb(179, 176, 176);
+}
+
+.article-fundo{
+    background-color: white;
+    margin: 10px auto;
+    margin-bottom: 23px;
+    padding: 1px;
+    width: 95%;
+}
+
+.article-fundo p{
+    padding: 10px;
+}
+
+.saiba-mais a:hover{
+background-color: rgb(150, 148, 148);
+color: blue;
+}
+
+article a:visited{
+    color: rgb(78, 78, 231);
+}
+
+header a:visited{
+    color: rgb(242, 242, 242);
+}
+
+.saiba-mais{
+    padding-bottom: 15px;
+}
+.saiba-mais a{
+    background-color: rgb(201, 197, 197);
+    padding: 7px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgba(48, 47, 47, 0.708);
+}
+
+footer p{
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
